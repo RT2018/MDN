@@ -1,29 +1,38 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 html {
-    font-size: 16px; /* px значит 'пиксели': базовый шрифт будет 16 пикселей в высоту  */
+    font-size: 16px;
+    /* px значит 'пиксели': базовый шрифт будет 16 пикселей в высоту  */
     font-family: 'Noto Sans', sans-serif;
     background-color: #C8C8C8;
 }
+
 body {
     width: 800px;
     margin: 0 auto;
     background-color: #FFFFFF;
     padding: 0px 30px 10px 30px;
 }
+
 img {
     display: block;
     margin: 0 auto;
 }
+
 h1 {
     margin: 0;
     padding: 20px 0;
     color: #00539F;
     text-shadow: 3px 3px 1px black;
 }
-p, ul, ol, li {
+
+p,
+ul,
+ol,
+li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
